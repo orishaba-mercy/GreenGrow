@@ -4,7 +4,7 @@ import about_img from '../../assets/about_img.png'
 import play_icon from '../../assets/play_icon.png'
 
 
-function About() {
+function About({setPlayState}) {
   return (
     <div className='about'>
         <div className="about-left">

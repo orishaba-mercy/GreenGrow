@@ -1,4 +1,4 @@
-import React, {userState} from 'react';
+import {useState} from 'react';
 import Navbar from './Components/NavBar/Navbar';
 import Hero from './Components/Hero/Hero';
 import Program from './Components/Program/Program';
@@ -12,7 +12,7 @@ import VideoPlayer from './Components/VideoPlayer/VideoPlayer';
 
 
 const App = () => {
-  const [playState,setPlayState] =userState(false);
+  const [playState,setPlayState] =useState(false);
   return (
     <div>
       <Navbar/>
